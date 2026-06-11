@@ -1,0 +1,88 @@
+# ──────────────────────────────────────────
+# macOS / Homebrew
+# ──────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ──────────────────────────────────────────
+# Homebrew internals
+# ──────────────────────────────────────────
+# brew audit / test artifacts
+*.bottle.tar.gz
+*.bottle.json
+
+# ──────────────────────────────────────────
+# Editors
+# ──────────────────────────────────────────
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+Session.vim
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ──────────────────────────────────────────
+# Language runtimes
+# ──────────────────────────────────────────
+
+# Ruby (used for formula/cask development)
+/.bundle/
+/vendor/bundle/
+Gemfile.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ──────────────────────────────────────────
+# CI / Automation
+# ──────────────────────────────────────────
+.github/workflows/*.local.yml
+
+# ──────────────────────────────────────────
+# Secrets & credentials (never commit!)
+# ──────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.cer
