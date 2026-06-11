@@ -1,19 +1,19 @@
 # homebrew-tap
 
-> Personal Homebrew tap by [@hunchulchoi](https://github.com/hunchulchoi)
+> Personal Homebrew tap by [@choihunchul](https://github.com/choihunchul)
 
 ## Usage
 
 ### Add this tap
 
 ```sh
-brew tap hunchulchoi/tap
+brew tap choihunchul/tap
 ```
 
 ### Install a formula
 
 ```sh
-brew install hunchulchoi/tap/<formula>
+brew install choihunchul/tap/<formula>
 ```
 
 Or, if you already added the tap:
@@ -26,7 +26,7 @@ brew install <formula>
 
 | Formula | Description | Version |
 |---------|-------------|---------|
-| _(coming soon)_ | | |
+| [lazyifconfig](https://github.com/choihunchul/lazyifconfig) | Terminal UI for inspecting local network state | v0.2.4 |
 
 ## Casks
 
@@ -82,4 +82,4 @@ homebrew-tap/
 
 ## License
 
-MIT © [hunchulchoi](https://github.com/hunchulchoi)
+MIT © [choihunchul](https://github.com/choihunchul)
