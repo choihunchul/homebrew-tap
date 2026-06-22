@@ -2,25 +2,25 @@ class Lazyifconfig < Formula
   desc "Terminal UI for inspecting local network state"
   homepage "https://github.com/choihunchul/lazyifconfig"
   license "MIT"
-  version "0.2.14"
+  version "0.2.15"
 
   on_macos do
     on_intel do
-      url "https://github.com/choihunchul/lazyifconfig/releases/download/v0.2.14/lazyifconfig-v0.2.14-x86_64-apple-darwin.tar.gz"
-      sha256 "0b30efde45fbb3b1c0e42faea24fb0179e5d3e443c10b9efcc87fe7ad2eb33e1"
+      url "https://github.com/choihunchul/lazyifconfig/releases/download/v0.2.15/lazyifconfig-v0.2.15-x86_64-apple-darwin.tar.gz"
+      sha256 "551eab25d766dcdfe1270a2d34272017ec6335ceee8db991ff6bb44e099d2fc8"
     end
 
     on_arm do
-      url "https://github.com/choihunchul/lazyifconfig/releases/download/v0.2.14/lazyifconfig-v0.2.14-aarch64-apple-darwin.tar.gz"
-      sha256 "ad7989cee621ebb50b45cded9a7c2dd5fb2d0c010b68dd4f77ccd938b08fe297"
+      url "https://github.com/choihunchul/lazyifconfig/releases/download/v0.2.15/lazyifconfig-v0.2.15-aarch64-apple-darwin.tar.gz"
+      sha256 "9274e160c19671f1a506ca1d77a561aa6a5565845948df8bd9b5e2d5411064ce"
     end
 
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/choihunchul/lazyifconfig/releases/download/v0.2.14/lazyifconfig-v0.2.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7b22a4af50f5dfb0bbb3e09dd3738690eaf7a3a4eedcee98fe47a573d9ee3450"
+      url "https://github.com/choihunchul/lazyifconfig/releases/download/v0.2.15/lazyifconfig-v0.2.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "dc338682e37d00ffbbd76c7cbf3260078c01e9110ec84c69a230a5e25b275d77"
     end
 
   end
