@@ -1,8 +1,8 @@
 cask "deskgpt" do
-  version "1.0.13"
-  sha256 "0d0a9c419ecf273bf7ad07ae9f9829b007f4f25c869c4432f1234ca1b804aa3c"
+  version "1.0.14"
+  sha256 "8822f5f4e81b0ef471899aa159d72f7362aa655d31e795d7f4b14eeabca2dbd8"
 
-  url "https://github.com/choihunchul/deskgpt/releases/download/v1.0.13/DeskGPT-1.0.13.dmg"
+  url "https://github.com/choihunchul/deskgpt/releases/download/v1.0.14/DeskGPT-1.0.14.dmg"
   name "DeskGPT"
   desc "Tiny native macOS wrapper for ChatGPT"
   homepage "https://github.com/choihunchul/deskgpt"
