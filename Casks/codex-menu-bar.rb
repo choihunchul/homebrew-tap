@@ -1,8 +1,8 @@
 cask "codex-menu-bar" do
-  version "1.0.13"
-  sha256 "8d8ab343b3499f5777cb7a670ade91b8c6498f76d0df02cf0b921ea847e908d3"
+  version "1.0.14"
+  sha256 "d873fcdd8eb522552261bb43e04aabafb1633eca51e652d4551568e18a3ea552"
 
-  url "https://github.com/choihunchul/codex-menu-bar/releases/download/v1.0.13/CodexMenuBar.dmg"
+  url "https://github.com/choihunchul/codex-menu-bar/releases/download/v1.0.14/CodexMenuBar.dmg"
   name "Codex Menu Bar"
   desc "Local Codex, Cursor, and Antigravity plugin macOS companion app"
   homepage "https://github.com/choihunchul/codex-menu-bar"
